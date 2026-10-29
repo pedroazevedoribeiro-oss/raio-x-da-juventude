@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto: Raio-X da Juventude</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; background-color: #f4f6f9; }
+        header { background: #1f2937; color: #fff; padding: 2.5rem 1rem; text-align: center; }
+        header h1 { font-size: 2.2rem; margin-bottom: 0.5rem; }
+        header p { color: #9ca3af; font-size: 1.1rem; }
+        .container { max-width: 1100px; margin: 2rem auto; padding: 0 1rem; }
+        .card { background: #fff; padding: 1.8rem; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); margin-bottom: 2rem; }
+        .card h2 { color: #111827; margin-bottom: 1rem; border-bottom: 2px solid #e5e7eb; padding-bottom: 0.5rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 1rem; }
+        .grid-item { text-align: center; }
+        .grid-item img { width: 100%; height: auto; border-radius: 6px; border: 1px solid #e5e7eb; margin-bottom: 0.8rem; }
+        .pilar { border-left: 4px solid #2563eb; padding-left: 1rem; background: #f8fafc; padding: 1rem; border-radius: 0 6px 6px 0; }
+        .pilar h3 { color: #1d4ed8; margin-bottom: 0.5rem; }
+        footer { text-align: center; padding: 1.5rem; background: #1f2937; color: #9ca3af; margin-top: 2rem; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🎯 Raio-X da Juventude</h1>
+        <p>Análise de Condições de Vida e Métricas para Atuação Social e Educacional</p>
+    </header>
+
+    <div class="container">
+        
+        <section class="card">
+            <h2>📌 Objetivo do Projeto</h2>
+            <p>Diagnosticar as condições socioeconômicas e educacionais de jovens através do tratamento e análise de dados em Python, fornecendo subsídios para a criação de políticas públicas e intervenções sociais direcionadas.</p>
+        </section>
+
+        <section class="card">
+            <h2>📊 Resultados e Diagnóstico</h2>
+            <div class="grid">
+                <div class="grid-item">
+                    <img src="grafico_acesso_internet.png" alt="Acesso à Internet por Renda">
+                    <p><strong>Inclusão Digital:</strong> Disparidade no acesso à banda larga entre as diferentes faixas de renda familiar.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="grafico_frequencia_renda.png" alt="Frequência Escolar por Renda">
+                    <p><strong>Engajamento Escolar:</strong> Maior instabilidade na frequência escolar em famílias de menor renda.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>💡 Pilares Estratégicos de Intervenção</h2>
+            <div class="grid">
+                <div class="pilar">
+                    <h3>1. Inclusão Digital</h3>
+                    <p>Criação e expansão de polos comunitários de estudo com acesso à internet de alta velocidade e equipamentos.</p>
+                </div>
+                <div class="pilar">
+                    <h3>2. Apoio Socioemocional</h3>
+                    <p>Implementação de programas de mentoria e suporte psicossocial nas escolas para prevenção da evasão escolar.</p>
+                </div>
+                <div class="pilar">
+                    <h3>3. Capacitação Técnica</h3>
+                    <p>Oferta de cursos de programação, análise de dados e habilidades digitais integrados à formação regular.</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Projeto de Análise de Dados e Impacto Social &copy; 2026</p>
+    </footer>
+
+</body>
+</html>
